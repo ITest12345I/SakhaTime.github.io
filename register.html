@@ -1,0 +1,120 @@
+<body>
+  <div id="header">
+    <form class="search">
+      <input type="text" size="30" onkeyup="showResult(this.value)">
+      <div id="livesearch"></div>
+      </form>
+  <div id="logo"><img src="imgs/logo.png" href="index.html" height="150" width="150" /></div>
+  <div id="menu">
+        <ul>
+          <li><a href="index.html">Главная</a></li><li><a 
+  
+  href="news.html">Новости</a></li><li><a href="merp.html">Мероприятия</a></li><li><a 
+  
+  href="#">Стажировки</a></li><li><a href="#">Клубы</a></li><li><a href="register.html">Регистрация</a></li>
+        </ul>
+  </div>
+  </div>
+  </body>
+<main>
+  <div>
+    <article style="display: block;" class="column">
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+          background-color: black;
+        }
+        
+        * {
+          box-sizing: border-box;
+        }
+        
+       
+        .container {
+          padding: 16px;
+          background-color: white;
+        }
+        
+        
+        input[type=text], input[type=password] {
+          width: 100%;
+          padding: 15px;
+          margin: 5px 0 22px 0;
+          display: inline-block;
+          border: none;
+          background: #f1f1f1;
+        }
+        
+        input[type=text]:focus, input[type=password]:focus {
+          background-color: #ddd;
+          outline: none;
+        }
+        
+       
+        hr {
+          border: 1px solid #f1f1f1;
+          margin-bottom: 25px;
+        }
+        
+        .registerbtn {
+          background-color: #f06d06;
+      
+          padding: 16px 20px;
+          margin: 8px 0;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+          opacity: 0.9;
+        }
+        
+        .registerbtn:hover {
+          opacity: 1;
+        }
+        
+        a {
+          color: dodgerblue;
+        }
+        
+        .signin {
+          background-color: #f1f1f1;
+          text-align: center;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <form action="/action_page.php">
+          <div class="container">
+            <h1>Регистрация</h1>
+            <p>Пожалуйтса заполните форму регистрации</p>
+            <hr>
+        
+            <label for="email"><b>Электронная почта</b></label>
+            <input type="email" placeholder="Введите email" name="email" id="email" required>
+        
+            <label for="psw"><b>Пароль</b></label>
+            <input type="psw" placeholder="Введите пароль" name="psw" id="psw" required>
+        
+            <label for="repeat-psw"><b>Повтор пароля</b></label>
+            <input type="repeat-psw" placeholder="Повторите пароль" name="psw-repeat" id="psw-repeat" required>
+            <hr>
+            <p>Создавая аккаунт вы соглашаетесь с нашими <a href="#" style="color: #f06d06;">политикой конфиденциальностью</a>.</p>
+        
+            <button type="submit" class="registerbtn">Зарегистрироваться</button>
+          </div>
+          
+          <div class="container signin">
+            <p>Уже есть аккаунт? <a href="#" style="color: #f06d06;">Sign in</a>.</p>
+          </div>
+        </form>
+        
+        </body>
+    </article>
+  </div>
+</main>
+<footer class="footer">
+  <div>Contact</div>
+</footer>
+<link rel="stylesheet" href="style.css">
