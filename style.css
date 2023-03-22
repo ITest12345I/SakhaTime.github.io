@@ -141,10 +141,6 @@ text-transform: uppercase;
   background-color: white;
 }
 
-#slaid3:checked~.kadoves label[for="slaid3"] {
-  background-color: white;
-}
-
 .adaptivSlayderlasekun {
   overflow: hidden;
 }
@@ -152,7 +148,7 @@ text-transform: uppercase;
 .abusteku-deagulus {
   display: flex;
   width: 100%;
-  transition: all 0.6s;
+  transition: all 0.3s;
 }
 
 .abusteku-deagulus img {
