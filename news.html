@@ -1,31 +1,79 @@
-<body>
-  <div id="header">
-    <form class="search">
-      <input type="text" size="30" onkeyup="showResult(this.value)">
-      <div id="livesearch"></div>
-      </form>
-  <div id="logo"><img src="imgs/logo.png" href="index.html" height="150" width="150" /></div>
-  <div id="menu">
-        <ul>
-          <li><a href="index.html">Главная</a></li><li><a 
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="ru"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>news</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="news.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 5.7.9, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "",
+		"logo": "images/logo.png"
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="news">
+    <meta property="og:type" content="website">
+  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <body class="u-body u-xl-mode" data-lang="ru"><header class="u-clearfix u-custom-color-1 u-header u-header" id="sec-3acd" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><nav class="u-align-left u-menu u-menu-one-level u-offcanvas u-menu-1">
+        <div class="menu-collapse">
+          <a class="u-button-style u-nav-link" href="#">
+            <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 302 302" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-0b31"></use></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg-0b31" x="0px" y="0px" viewBox="0 0 302 302" style="enable-background:new 0 0 302 302;" xml:space="preserve" class="u-svg-content"><g><rect y="36" width="302" height="30"></rect><rect y="236" width="302" height="30"></rect><rect y="136" width="302" height="30"></rect>
+</g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+          </a>
+        </div>
+        <div class="u-custom-menu u-nav-container">
+          <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Главная.html" style="padding: 10px 46px;">Главная</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="news.html" style="padding: 10px 46px;">Новости</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="merp.html" style="padding: 10px 46px;">Мероприятия</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="staj.html" style="padding: 10px 46px;">Стажировки</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="clubs.html" style="padding: 10px 47px 10px 46px;">Клубы</a>
+</li></ul>
+        </div>
+        <div class="u-custom-menu u-nav-container-collapse">
+          <div class="u-align-center u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+            <div class="u-inner-container-layout u-sidenav-overflow">
+              <div class="u-menu-close"></div>
+              <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Главная.html">Главная</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="news.html">Новости</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="merp.html">Мероприятия</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="staj.html">Стажировки</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="clubs.html">Клубы</a>
+</li></ul>
+            </div>
+          </div>
+          <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+        </div>
+      </nav><a href="https://nicepage.com" class="u-image u-logo u-image-1" data-image-width="500" data-image-height="500">
+        <img src="images/logo.png" class="u-logo-image u-logo-image-1">
+      </a><div class="u-align-left u-border-1 u-border-grey-15 u-expanded-width u-line u-line-horizontal u-line-1"></div><a class="u-login u-login-1">Имя пользователя</a></header>
+    <section class="u-clearfix u-section-1" id="sec-d80a">
+      <div class="u-clearfix u-sheet u-sheet-1"></div>
+    </section>
+    
+    
+    <footer class="u-align-center u-clearfix u-custom-color-1 u-footer u-footer" id="sec-c5e1"><div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-small-text u-text u-text-variant u-text-1">Пример текста. Кликните, чтобы выбрать элемент "Текст".</p>
+      </div></footer>
+    <section class="u-backlink u-clearfix u-grey-80">
+      <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
+        <span>Website Templates</span>
+      </a>
+      <p class="u-text">
+        <span>created with</span>
+      </p>
+      <a class="u-link" href="" target="_blank">
+        <span>Website Builder Software</span>
+      </a>. 
+    </section>
   
-  href="news.html">Новости</a></li><li><a href="merp.html">Мероприятия</a></li><li><a 
-  
-  href="#">Стажировки</a></li><li><a href="#">Клубы</a></li><li><a href="register.html">Регистрация</a></li>
-        </ul>
-  </div>
-  </div>
-  </body>
-<main>
-  <div>
-    <article style="display: block;" class="column">
-      <div>
-        <form></form>
-      </div>
-    </article>
-  </div>
-</main>
-<footer class="footer">
-  <div>Contact</div>
-</footer>
-<link rel="stylesheet" href="style.css">
+</body></html>
