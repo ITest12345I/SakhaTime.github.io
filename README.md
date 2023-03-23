@@ -1,4 +1,3 @@
-?style=for-the-badge&logo=appveyor
 # https://itest12345i.github.io/SakhaTime.github.io/
 # Used: [Visual Studio Code <img alt="node-current" src="https://img.shields.io/node/v/vscode">]
 # Programming languages: HTML, CSS, JavaScript
