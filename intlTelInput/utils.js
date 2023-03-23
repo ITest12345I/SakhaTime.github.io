@@ -8,21 +8,6 @@
     function v(a,b){var c=a.g[b];if(null==c)return null;if(a.m){if(!(b in a.i)){var d=a.m,e=a.l[b];if(null!=c)if(e.m){for(var g=[],f=0;f<c.length;f++)g[f]=d.i(e,c[f]);c=g}else c=d.i(e,c);return a.i[b]=c}return a.i[b]}return c}function p(a,b,c){var d=v(a,b);return a.l[b].m?d[c||0]:d}function w(a,b){if(null!=a.g[b])a=p(a,b,void 0);else a:{a=a.l[b];if(void 0===a.l)if(b=a.v,b===Boolean)a.l=!1;else if(b===Number)a.l=0;else if(b===String)a.l=a.u?"0":"";else{a=new b;break a}a=a.l}return a}
     function u(a,b){return v(a,b)||[]}function x(a,b){return a.l[b].m?null!=a.g[b]?a.g[b].length:0:null!=a.g[b]?1:0}function q(a,b,c){a.g[b]=c;a.i&&(a.i[b]=c)}function r(a,b,c){a.g[b]||(a.g[b]=[]);a.g[b].push(c);a.i&&delete a.i[b]}function y(a,b){var c=[],d;for(d in b)0!=d&&c.push(new ea(d,b[d]));return new na(a,c)};function A(){}A.prototype.g=function(a){new a.i;throw Error("Unimplemented");};A.prototype.i=function(a,b){if(11==a.i||10==a.i)return b instanceof n?b:this.g(a.v.prototype.j(),b);if(14==a.i)return"string"===typeof b&&B.test(b)&&(a=Number(b),0<a)?a:b;if(!a.u)return b;a=a.v;if(a===String){if("number"===typeof b)return String(b)}else if(a===Number&&"string"===typeof b&&("Infinity"===b||"-Infinity"===b||"NaN"===b||B.test(b)))return Number(b);return b};var B=/^-?[0-9]+$/;function C(){}m(C,A);C.prototype.g=function(a,b){a=new a.i;a.m=this;a.g=b;a.i={};return a};function D(){}m(D,C);D.prototype.i=function(a,b){return 8==a.i?!!b:A.prototype.i.apply(this,arguments)};D.prototype.g=function(a,b){return D.$.g.call(this,a,b)};function E(a,b){null!=a&&this.g.apply(this,arguments)}E.prototype.i="";E.prototype.set=function(a){this.i=""+a};E.prototype.g=function(a,b,c){this.i+=String(a);if(null!=b)for(var d=1;d<arguments.length;d++)this.i+=arguments[d];return this};E.prototype.toString=function(){return this.i};/*
 
- Protocol Buffer 2 Copyright 2008 Google Inc.
- All other code copyright its respective owners.
- Copyright (C) 2010 The Libphonenumber Authors
-
- Licensed under the Apache License, Version 2.0 (the "License");
- you may not use this file except in compliance with the License.
- You may obtain a copy of the License at
-
- http://www.apache.org/licenses/LICENSE-2.0
-
- Unless required by applicable law or agreed to in writing, software
- distributed under the License is distributed on an "AS IS" BASIS,
- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- See the License for the specific language governing permissions and
- limitations under the License.
 */
     function F(){n.call(this)}m(F,n);var pa=null;function G(){n.call(this)}m(G,n);var qa=null;function H(){n.call(this)}m(H,n);var ra=null;
     F.prototype.j=function(){var a=pa;a||(pa=a=y(F,{0:{name:"NumberFormat",s:"i18n.phonenumbers.NumberFormat"},1:{name:"pattern",required:!0,h:9,type:String},2:{name:"format",required:!0,h:9,type:String},3:{name:"leading_digits_pattern",o:!0,h:9,type:String},4:{name:"national_prefix_formatting_rule",h:9,type:String},6:{name:"national_prefix_optional_when_formatting",h:8,defaultValue:!1,type:Boolean},5:{name:"domestic_carrier_code_formatting_rule",h:9,type:String}}));return a};F.j=F.prototype.j;
@@ -33,19 +18,7 @@
     I.prototype.j=function(){var a=sa;a||(sa=a=y(I,{0:{name:"PhoneNumber",s:"i18n.phonenumbers.PhoneNumber"},1:{name:"country_code",required:!0,h:5,type:Number},2:{name:"national_number",required:!0,h:4,type:Number},3:{name:"extension",h:9,type:String},4:{name:"italian_leading_zero",h:8,type:Boolean},8:{name:"number_of_leading_zeros",h:5,defaultValue:1,type:Number},5:{name:"raw_input",h:9,type:String},6:{name:"country_code_source",h:14,defaultValue:0,type:ta},7:{name:"preferred_domestic_carrier_code",
             h:9,type:String}}));return a};I.ctor=I;I.ctor.j=I.prototype.j;/*
 
- Copyright (C) 2010 The Libphonenumber Authors
 
- Licensed under the Apache License, Version 2.0 (the "License");
- you may not use this file except in compliance with the License.
- You may obtain a copy of the License at
-
- http://www.apache.org/licenses/LICENSE-2.0
-
- Unless required by applicable law or agreed to in writing, software
- distributed under the License is distributed on an "AS IS" BASIS,
- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- See the License for the specific language governing permissions and
- limitations under the License.
 */
     var J={1:"US AG AI AS BB BM BS CA DM DO GD GU JM KN KY LC MP MS PR SX TC TT VC VG VI".split(" "),7:["RU","KZ"],20:["EG"],27:["ZA"],30:["GR"],31:["NL"],32:["BE"],33:["FR"],34:["ES"],36:["HU"],39:["IT","VA"],40:["RO"],41:["CH"],43:["AT"],44:["GB","GG","IM","JE"],45:["DK"],46:["SE"],47:["NO","SJ"],48:["PL"],49:["DE"],51:["PE"],52:["MX"],53:["CU"],54:["AR"],55:["BR"],56:["CL"],57:["CO"],58:["VE"],60:["MY"],61:["AU","CC","CX"],62:["ID"],63:["PH"],64:["NZ"],65:["SG"],66:["TH"],81:["JP"],82:["KR"],84:["VN"],
         86:["CN"],90:["TR"],91:["IN"],92:["PK"],93:["AF"],94:["LK"],95:["MM"],98:["IR"],211:["SS"],212:["MA","EH"],213:["DZ"],216:["TN"],218:["LY"],220:["GM"],221:["SN"],222:["MR"],223:["ML"],224:["GN"],225:["CI"],226:["BF"],227:["NE"],228:["TG"],229:["BJ"],230:["MU"],231:["LR"],232:["SL"],233:["GH"],234:["NG"],235:["TD"],236:["CF"],237:["CM"],238:["CV"],239:["ST"],240:["GQ"],241:["GA"],242:["CG"],243:["CD"],244:["AO"],245:["GW"],246:["IO"],247:["AC"],248:["SC"],249:["SD"],250:["RW"],251:["ET"],252:["SO"],
