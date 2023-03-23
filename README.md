@@ -4,3 +4,10 @@
 # Frameworks: no
 # [Files <img alt="GitHub repo file count" src="https://img.shields.io/github/directory-file-count/itest12345i/SakhaTime.github.io">]
 # [Repo size <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/itest12345i/SakhaTime.github.io">]
+
+Про проект: Проект был сделан по указаниям нашего заказчика, сайт включает в себя разделы такие как: Главная, Новости, Мероприятия, Стажировки, Клубы, Регистрация
+
+Наша команда: Наша команда была собрана из 10 класса Хатылынского СОШ учителем информатики.
+Менеджер: Белолюбский Максим Гаврильевич
+Разрабочик: Иванов Мичил Манчарович
+Дизайн: Холмогорова Милена Александровна
