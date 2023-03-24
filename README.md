@@ -14,7 +14,7 @@
 Дизайн: Холмогорова Милена Александровна
 
 
-#Frontend code
+# Frontend code
 ```
 <!DOCTYPE html>
 <html style="font-size: 16px;" lang="ru"><head>
@@ -193,7 +193,7 @@
 </body></html>
 ```
 
-#Back code
+# Back code
 ````
 [Back code](https://github.com/ITest12345I/SakhaTime.github.io)
 ````
