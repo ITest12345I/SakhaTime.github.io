@@ -1,4 +1,4 @@
-# https://itest12345i.github.io/SakhaTime.github.io/
+# http://sakhatime.atwebpages.com/
 # Used: [Visual Studio Code <img alt="node-current" src="https://img.shields.io/node/v/vscode">]
 # Programming languages: HTML, CSS, JavaScript
 # Frameworks: Java
