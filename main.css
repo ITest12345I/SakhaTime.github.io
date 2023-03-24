@@ -16,6 +16,12 @@
   background-image: none;
 }
 
+.center {
+  width: 74%;
+  height: 74%;
+  
+}
+
 .u-section-1 .u-container-layout-1 {
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
   padding: 30px;
